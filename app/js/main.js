@@ -15,7 +15,7 @@ $(function () {
     });
 
 
-   $('.select-style', '.product-one__item-num').styler();
+   $('.select-style, .product-one__item-num').styler();
 
    $('.shop-content__filter-btn').on('click', function (){
     $('.shop-content__filter-btn').removeClass('shop-content__filter-btn--active');
